@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <title>Submitted article</title>
+   <link rel="stylesheet" type="text/css" href="/static/style.css">
+ </head>
+ <body>
+   <div id="container">
+     <div class="pagetitle">
+       <h1>Article classified!</h1>
+     </div>
+     <div id="main">
+       <h3>Thanks for your submission. Here's the article that you wanted to classify:</h3>
+       <p>
+          <strong>Title</strong>: {{title}} <br>
+           <br>
+           <strong>Article</strong>: {{body}}
+           <br>
+           <br>
+       </p>
+         <p>
+           <h3>The article classification is... {{topic}}</h3>
+         <br>
+         <br>
+            <form action="./form">
+             <input type="submit" value="CLASSIFY ANOTHER!" />
+            </form>
+         <br>
+         </p>
+     </div>
+       <div id="footer">
+            <br>
+            <br>
+            <p>
+                <strong>The available topic categories are:</strong>
+                <ul>
+                    <li>Artificial intelligence</li>
+                    <li>Battery technology</li>
+                    <li>Blackswans</li>
+                    <li>Battery tech</li>
+                    <li>Blockchain</li>
+                    <li>Carbon eradication</li>
+                    <li>Counterparty risk</li>
+                    <li>Digital advertising</li>
+                    <li>Digital currency</li>
+                    <li>Digital health</li>
+                    <li>Education technology</li>
+                    <li>Financial services</li>
+                    <li>Internet of things</li>
+                    <li>Property</li>
+                    <li>Sharing economy</li>
+                </ul>
+            </p>
+        </div>
+   </div>
+ </body>
+</html>

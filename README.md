@@ -2,7 +2,7 @@
 Springboard Data Science Capstone submission - multilayer, CNN, LSTM & VDCNN neural nets 
 
 
-# Business News Tagging Engine API
+# Business News Classification Engine
 Springboard Capstone Project 2
 James Flint mail@jamesflint.net 2018-03-28
 

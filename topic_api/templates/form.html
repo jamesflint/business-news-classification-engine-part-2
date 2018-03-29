@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Business News Classification Engine</title>
+   <link rel="stylesheet" type="text/css" href="/static/style.css">
+  </head>
+  <body>
+    <div id="container">
+      <div class="pagetitle">
+        <h1>Business News Classification Engine</h1>
+          <br>
+          <br>
+          <h3>Please classify an article using the form below</h3>
+          <br>
+      </div>
+      <div id="main">
+        <form method="post" action="./submitted">
+          <label for="title">Title (max 15 words):</label><br>
+          <input type="text" name="title" size="100"><br>
+          <br>
+          <label for="body">Article (max 135 words) :</label><br>
+          <textarea cols="100" rows="10" name="body"></textarea>
+          <br>
+          <br>
+          <input type="submit" value="CLASSIFY!">
+        </form>
+      </div>
+        <div id="footer">
+            <br>
+            <br>
+            <p>This classification engine was built by <a href="https://www.linkedin.com/in/jbflint/">James Flint</a>
+                in 2018. It was a Capstone Project <br>for the
+                <a href="https://www.springboard.com/workshops/data-science-career-track">
+                    Springboard Data Science Career Track</a> course.</p>
+            <p>The engine is powered by a Long Short-Term Memory (LSTM) neural network,<br>
+                trained on a proprietary business news dataset of summarised news articles provided<br>
+                by <a href="http://curationcorp.com/"> Curation Corporation</a>.</p>
+            <p>Source code for the model training and for this API, along with code for<br>
+            models based on Convolutional Neural Nets (CNNs) and Very Deep Convolutional<br>
+                Neural Nets (VDCNN) is available on <a href="https://github.com/jamesflint/capstone-project-2-FINAL">Github</a>.</p>
+        </div>
+    </div>
+  </body>
+</html>
