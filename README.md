@@ -1,4 +1,4 @@
-# Business News Classification Engine
+# Business News Classification Engine (Part 2)
 #### Springboard Capstone Project 2 | James Flint | mail@jamesflint.net | 2018-03-28
 
 ## Problem
